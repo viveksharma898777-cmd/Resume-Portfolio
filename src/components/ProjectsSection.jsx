@@ -53,7 +53,7 @@ export const ProjectsSection = () => {
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/machadop1407"
+            href="https://github.com/viveksharma898777-cmd"
           >
             Check My Github <ArrowRight size={16} />
           </a>
