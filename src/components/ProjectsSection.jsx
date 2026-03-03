@@ -11,7 +11,7 @@ const projects = [
     link: "#"
   },
   {
-    title: "My Resume Portfolio",
+    title: "My Portfolio",
     description: "A React + Tailwind based resume portfolio.",
     image: "/projects/resume_project.png",
     link: "#"
