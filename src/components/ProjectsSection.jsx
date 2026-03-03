@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Crypto",
+    title: "Cryptoplace",
     description: "A React + Tailwind based crypto tracking UI.",
     image: "/projects/cryptoplace.png",
     link: "#"
