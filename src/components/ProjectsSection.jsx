@@ -5,23 +5,24 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
+    title: "Ai Resume Analyzer",
+    description: "A React + Tailwind and AI based Resume Analyzer.",
+    image: "/projects/AiResume.png",
+    link: "#"
+  },
+  {
     title: "Cryptoplace",
-    description: "A React + Tailwind based crypto tracking UI.",
-    image: "/projects/cryptoplace.png",
+    description: "A React + Tailwind based Crypto Tracking UI.",
+    image: "/projects/Cryptoplace.png",
     link: "#"
   },
   {
-    title: "My Portfolio",
-    description: "A React + Tailwind based resume portfolio.",
-    image: "/projects/resume_project.png",
+    title: "My Resume Portfolio",
+    description: "A React + Tailwind based Resume Portfolio.",
+    image: "/projects/Resume.png",
     link: "#"
   },
-  {
-    title: "Upcoming",
-    description: "More projects coming soon!",
-    image: "/projects/upcoming.png",
-    link: "#"
-  }
+  
 ];
 
 
@@ -35,7 +36,7 @@ export const ProjectsSection = () => {
           {projects.map((p, idx) => (
             <div key={idx} className="border rounded-lg overflow-hidden shadow-sm">
               <div className="h-40 bg-gray-100 flex items-center justify-center">
-                <img src={p.image} alt={p.title} className="object-contain h-full" />
+                <img src={p.image} alt={p.title} className="object-cover h-full w-full" />
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-semibold">{p.title}</h3>
