@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Cryptoplace",
     description: "A React + Tailwind based Crypto Tracking UI.",
-    image: "/projects/Cryptoplace.png",
+    image: "/projects/Resume.png",
     link: "#"
   },
   {
