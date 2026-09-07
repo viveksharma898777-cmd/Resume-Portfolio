@@ -8,19 +8,19 @@ const projects = [
     title: "Ai Resume Analyzer",
     description: "A React + Tailwind and AI based Resume Analyzer.",
     image: "/projects/AiResume.png",
-    link: "#"
+    link: "ai-resume-analyser-psi-five.vercel.app"
   },
   {
     title: "Cryptoplace",
     description: "A React + Tailwind based Crypto Tracking UI.",
     image: "/projects/Cryptoplace.png",
-    link: "#"
+    link: "https://cryptoplace-phi.vercel.app/"
   },
   {
     title: "My Resume Portfolio",
     description: "A React + Tailwind based Resume Portfolio.",
     image: "/projects/Resume.png",
-    link: "#"
+    link: "https://resume-portfolio-plum.vercel.app/"
   },
   
 ];
